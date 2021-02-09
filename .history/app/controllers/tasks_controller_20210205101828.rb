@@ -7,12 +7,10 @@ class TasksController < ApplicationController
 
     def show 
       @task = Task.find_by_id(params[:id])
-      render json: @task
     end
 
     def edit 
       @task = Task.find_by_id(params[:id])  
-      render json: @task
     end
 
 
