@@ -6,5 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Task.find_or_create_by(content: "Buy Dog Food", category: "Pets")
-Task.find_or_create_by(content: "Clean Bathroom", category: "House")
+Task.create(content: "Buy Dog Food", category: "Pets", date: date)
+Task.create(content: "Clean Bathroom", category: "House", date: date)
